@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fc65f6d9c238c737c8ed0fb18faa0fce {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fc65f6d9c238c737c8ed0fb18faa0fce" ></div>
+        
+</body>
+<script>    
+    
+            var map_fc65f6d9c238c737c8ed0fb18faa0fce = L.map(
+                "map_fc65f6d9c238c737c8ed0fb18faa0fce",
+                {
+                    center: [43.848732, 125.193406],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8e0a8893b99baf7316b64826b855b060 = L.tileLayer(
+                "http://webrd02.is.autonavi.com/appmaptile?lang=zh_cn\u0026size=1\u0026scale=1\u0026style=7\u0026x={x}\u0026y={y}\u0026z={z}",
+                {"attribution": "default", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fc65f6d9c238c737c8ed0fb18faa0fce);
+        
+    
+            var marker_4f02ed0b54da801d032a8dc67362c625 = L.marker(
+                [43.848732, 125.193406],
+                {"color": "blue"}
+            ).addTo(map_fc65f6d9c238c737c8ed0fb18faa0fce);
+        
+    
+            var icon_82ef244bd3e47e26c847237ddf71fb10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f02ed0b54da801d032a8dc67362c625.setIcon(icon_82ef244bd3e47e26c847237ddf71fb10);
+        
+    
+        var popup_d64cd50faf9012d49fc220293490c5f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b944fabe1d7c1bdd070cffc963d54ccf = $(`<div id="html_b944fabe1d7c1bdd070cffc963d54ccf" style="width: 100.0%; height: 100.0%;">LFV3B2CD5M5722244  GOLF 2,0 GTIBM 162 TSID7F  2022-06-06 15:03:56</div>`)[0];
+            popup_d64cd50faf9012d49fc220293490c5f9.setContent(html_b944fabe1d7c1bdd070cffc963d54ccf);
+        
+
+        marker_4f02ed0b54da801d032a8dc67362c625.bindPopup(popup_d64cd50faf9012d49fc220293490c5f9)
+        ;
+
+        
+    
+    
+            var marker_163044f454fa41d761687dacd6893c8e = L.marker(
+                [43.84105, 125.205115],
+                {"color": "blue"}
+            ).addTo(map_fc65f6d9c238c737c8ed0fb18faa0fce);
+        
+    
+            var icon_75f122e5fdd4925b1227bc92ceadd037 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_163044f454fa41d761687dacd6893c8e.setIcon(icon_75f122e5fdd4925b1227bc92ceadd037);
+        
+    
+        var popup_37c3ce7486f7065c3ac56de2fb8abff2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c542219a8f78da41e9d3b79391ba7a7 = $(`<div id="html_5c542219a8f78da41e9d3b79391ba7a7" style="width: 100.0%; height: 100.0%;">LFV1B2CD7N5250394  GOLF 1,2 BLBMT 85 TSID7F  2022-07-31 07:28:00</div>`)[0];
+            popup_37c3ce7486f7065c3ac56de2fb8abff2.setContent(html_5c542219a8f78da41e9d3b79391ba7a7);
+        
+
+        marker_163044f454fa41d761687dacd6893c8e.bindPopup(popup_37c3ce7486f7065c3ac56de2fb8abff2)
+        ;
+
+        
+    
+    
+            var marker_d2bc386291c69928bb7857e03abdbb4c = L.marker(
+                [43.840318, 125.20478],
+                {"color": "blue"}
+            ).addTo(map_fc65f6d9c238c737c8ed0fb18faa0fce);
+        
+    
+            var icon_587ddea1ec2e803a8ab6ad54afd3b759 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d2bc386291c69928bb7857e03abdbb4c.setIcon(icon_587ddea1ec2e803a8ab6ad54afd3b759);
+        
+    
+        var popup_02ca408d47f552811876ebac17f14320 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d95a6787f35a8696a3c39bfd2b9e12f6 = $(`<div id="html_d95a6787f35a8696a3c39bfd2b9e12f6" style="width: 100.0%; height: 100.0%;">LFV3B2CX4N3550005  2023 - B MAIN SUV - OCU3 High - CHN  2022-08-03 08:00:39</div>`)[0];
+            popup_02ca408d47f552811876ebac17f14320.setContent(html_d95a6787f35a8696a3c39bfd2b9e12f6);
+        
+
+        marker_d2bc386291c69928bb7857e03abdbb4c.bindPopup(popup_02ca408d47f552811876ebac17f14320)
+        ;
+
+        
+    
+    
+            var marker_b7c5f5841b740c1078d1190e31aa8ca8 = L.marker(
+                [43.840409, 125.205115],
+                {"color": "blue"}
+            ).addTo(map_fc65f6d9c238c737c8ed0fb18faa0fce);
+        
+    
+            var icon_b43f91c078a9e04c5ac7cd1911f43e1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b7c5f5841b740c1078d1190e31aa8ca8.setIcon(icon_b43f91c078a9e04c5ac7cd1911f43e1f);
+        
+    
+        var popup_d5e48e2829983c60f33d9606fb15c77d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05991b3bb9878b7ece72ca7ed1622191 = $(`<div id="html_05991b3bb9878b7ece72ca7ed1622191" style="width: 100.0%; height: 100.0%;">LFV3B2CX8N3550024  B-Main SUV BL T 137/2.0D7F  2022-08-04 18:59:24</div>`)[0];
+            popup_d5e48e2829983c60f33d9606fb15c77d.setContent(html_05991b3bb9878b7ece72ca7ed1622191);
+        
+
+        marker_b7c5f5841b740c1078d1190e31aa8ca8.bindPopup(popup_d5e48e2829983c60f33d9606fb15c77d)
+        ;
+
+        
+    
+    
+            var marker_03888b7be3e451a1a46f3d3a7f3d1cd2 = L.marker(
+                [43.840602, 125.204693],
+                {"color": "blue"}
+            ).addTo(map_fc65f6d9c238c737c8ed0fb18faa0fce);
+        
+    
+            var icon_83da587cc17bb6b9e3c73c065940da7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_03888b7be3e451a1a46f3d3a7f3d1cd2.setIcon(icon_83da587cc17bb6b9e3c73c065940da7b);
+        
+    
+        var popup_5132cac02ebfc6d63e706d21b5f165b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d6e1afab7fe9d3604bdf0bfa0cb306a = $(`<div id="html_1d6e1afab7fe9d3604bdf0bfa0cb306a" style="width: 100.0%; height: 100.0%;">LFV3B2CX0N3550017  B-Main SUV RL T 162/2.0D7A  2022-08-03 12:19:45</div>`)[0];
+            popup_5132cac02ebfc6d63e706d21b5f165b0.setContent(html_1d6e1afab7fe9d3604bdf0bfa0cb306a);
+        
+
+        marker_03888b7be3e451a1a46f3d3a7f3d1cd2.bindPopup(popup_5132cac02ebfc6d63e706d21b5f165b0)
+        ;
+
+        
+    
+    
+            var marker_4ddeb10786619554e0e9dce455d271ae = L.marker(
+                [43.835891, 125.06647],
+                {"color": "blue"}
+            ).addTo(map_fc65f6d9c238c737c8ed0fb18faa0fce);
+        
+    
+            var icon_254d7ebd4b214e167f4f9adcc3bf8ba8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4ddeb10786619554e0e9dce455d271ae.setIcon(icon_254d7ebd4b214e167f4f9adcc3bf8ba8);
+        
+    
+        var popup_19f765c95aa70fc6bcc457c8416b26fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aca9ae4e5f333351bad985dc55ab0afa = $(`<div id="html_aca9ae4e5f333351bad985dc55ab0afa" style="width: 100.0%; height: 100.0%;">LFV3B2CX6N3550040  B-Main SUV BL T 137/2.0D7F  2022-08-01 15:06:10</div>`)[0];
+            popup_19f765c95aa70fc6bcc457c8416b26fc.setContent(html_aca9ae4e5f333351bad985dc55ab0afa);
+        
+
+        marker_4ddeb10786619554e0e9dce455d271ae.bindPopup(popup_19f765c95aa70fc6bcc457c8416b26fc)
+        ;
+
+        
+    
+    
+            var marker_e8ba9d01298c799b9f9cdd294b014428 = L.marker(
+                [43.840602, 125.204693],
+                {"color": "blue"}
+            ).addTo(map_fc65f6d9c238c737c8ed0fb18faa0fce);
+        
+    
+            var icon_b5590977225403edf49ae543f5206331 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e8ba9d01298c799b9f9cdd294b014428.setIcon(icon_b5590977225403edf49ae543f5206331);
+        
+    
+        var popup_11a95fca748b3d55ad9f292d81db0262 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f88f032289b6ebea21f0b62e8ca1dfa = $(`<div id="html_8f88f032289b6ebea21f0b62e8ca1dfa" style="width: 100.0%; height: 100.0%;">LFV3B2CX3N3550044  B-Main SUV BL+ T 162/2.0D7A  2022-08-04 19:01:32</div>`)[0];
+            popup_11a95fca748b3d55ad9f292d81db0262.setContent(html_8f88f032289b6ebea21f0b62e8ca1dfa);
+        
+
+        marker_e8ba9d01298c799b9f9cdd294b014428.bindPopup(popup_11a95fca748b3d55ad9f292d81db0262)
+        ;
+
+        
+    
+    
+            var marker_7cccaf2f598b5dfb73bc12c5e6a41421 = L.marker(
+                [43.853524, 125.213912],
+                {"color": "blue"}
+            ).addTo(map_fc65f6d9c238c737c8ed0fb18faa0fce);
+        
+    
+            var icon_16d8287f7235550299a4d6bf90312815 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7cccaf2f598b5dfb73bc12c5e6a41421.setIcon(icon_16d8287f7235550299a4d6bf90312815);
+        
+    
+        var popup_67256e818ac4c3804992ccffb7bed5ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5560075f93aadc22154d50630bc70c48 = $(`<div id="html_5560075f93aadc22154d50630bc70c48" style="width: 100.0%; height: 100.0%;">LFV2B2A16M5200954  T-ROC LWB BL T 110/1.4D7F  2022-07-30 10:09:53</div>`)[0];
+            popup_67256e818ac4c3804992ccffb7bed5ed.setContent(html_5560075f93aadc22154d50630bc70c48);
+        
+
+        marker_7cccaf2f598b5dfb73bc12c5e6a41421.bindPopup(popup_67256e818ac4c3804992ccffb7bed5ed)
+        ;
+
+        
+    
+    
+            var marker_e83a20e653faa856d153e18494b98c52 = L.marker(
+                [43.853269, 125.21231],
+                {"color": "blue"}
+            ).addTo(map_fc65f6d9c238c737c8ed0fb18faa0fce);
+        
+    
+            var icon_67f01c15678686aa4885b134445af772 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e83a20e653faa856d153e18494b98c52.setIcon(icon_67f01c15678686aa4885b134445af772);
+        
+    
+        var popup_63dc6186a20410b051ecdf03b6016e90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2f3d09afbddecb49a4482e5e78684c1 = $(`<div id="html_d2f3d09afbddecb49a4482e5e78684c1" style="width: 100.0%; height: 100.0%;">LFV2B2C14N3754567  T-CROSS 1.5 TREND 83SRE A6F  2022-07-25 11:15:36</div>`)[0];
+            popup_63dc6186a20410b051ecdf03b6016e90.setContent(html_d2f3d09afbddecb49a4482e5e78684c1);
+        
+
+        marker_e83a20e653faa856d153e18494b98c52.bindPopup(popup_63dc6186a20410b051ecdf03b6016e90)
+        ;
+
+        
+    
+    
+            var marker_e2b5423550be9933a8e6d7bfd1386249 = L.marker(
+                [43.853098, 125.214101],
+                {"color": "blue"}
+            ).addTo(map_fc65f6d9c238c737c8ed0fb18faa0fce);
+        
+    
+            var icon_63e47a0bf837bb4d87d58fff0cbd070f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e2b5423550be9933a8e6d7bfd1386249.setIcon(icon_63e47a0bf837bb4d87d58fff0cbd070f);
+        
+    
+        var popup_1e139e3ac7d76ac2155d71300c4755ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d52bf682895bd72368dee8b330fd94b1 = $(`<div id="html_d52bf682895bd72368dee8b330fd94b1" style="width: 100.0%; height: 100.0%;">LFV2B2C16N3754568  T-CROSS 1.4 HIGHL 110TSI D7F  2022-07-26 15:17:14</div>`)[0];
+            popup_1e139e3ac7d76ac2155d71300c4755ff.setContent(html_d52bf682895bd72368dee8b330fd94b1);
+        
+
+        marker_e2b5423550be9933a8e6d7bfd1386249.bindPopup(popup_1e139e3ac7d76ac2155d71300c4755ff)
+        ;
+
+        
+    
+    
+            var marker_6438001c5d7bd3e94673696608a9bdb9 = L.marker(
+                [43.853312, 125.213431],
+                {"color": "blue"}
+            ).addTo(map_fc65f6d9c238c737c8ed0fb18faa0fce);
+        
+    
+            var icon_dfa0d71e5b3cab9a38dea3395a9bb4a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6438001c5d7bd3e94673696608a9bdb9.setIcon(icon_dfa0d71e5b3cab9a38dea3395a9bb4a6);
+        
+    
+        var popup_3aa61239188b70b950c8192d9e5fa6ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceadef508b9486beeff6ca1eea4e65d6 = $(`<div id="html_ceadef508b9486beeff6ca1eea4e65d6" style="width: 100.0%; height: 100.0%;">LFV2A23C8M3130693  Magotan PA TL T 110/1.4D7F  2022-07-30 10:28:34</div>`)[0];
+            popup_3aa61239188b70b950c8192d9e5fa6ed.setContent(html_ceadef508b9486beeff6ca1eea4e65d6);
+        
+
+        marker_6438001c5d7bd3e94673696608a9bdb9.bindPopup(popup_3aa61239188b70b950c8192d9e5fa6ed)
+        ;
+
+        
+    
+    
+            var marker_ed048f85c7bb97aa4c639e1e24ad1017 = L.marker(
+                [43.853211, 125.214276],
+                {"color": "blue"}
+            ).addTo(map_fc65f6d9c238c737c8ed0fb18faa0fce);
+        
+    
+            var icon_984ed020c038497ef7429d08f1acfae4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ed048f85c7bb97aa4c639e1e24ad1017.setIcon(icon_984ed020c038497ef7429d08f1acfae4);
+        
+    
+        var popup_b61933f276f523e1d6c7dde12b2f3cd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5fd362d667aa5bddc593cdb1c5a106b = $(`<div id="html_a5fd362d667aa5bddc593cdb1c5a106b" style="width: 100.0%; height: 100.0%;">LFV3B23H0N3356502  ShootingBrakeCline T162/2.0D7F  2022-07-30 14:24:50</div>`)[0];
+            popup_b61933f276f523e1d6c7dde12b2f3cd5.setContent(html_a5fd362d667aa5bddc593cdb1c5a106b);
+        
+
+        marker_ed048f85c7bb97aa4c639e1e24ad1017.bindPopup(popup_b61933f276f523e1d6c7dde12b2f3cd5)
+        ;
+
+        
+    
+</script>
